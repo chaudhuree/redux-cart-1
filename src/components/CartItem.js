@@ -32,6 +32,7 @@ const CartItem = ({ img, title, price, amount,remove,increase,decrease }) => {
   );
 };
 
+// refactor to use mapStateToProps
 const mapDispatchToPropss = (dispatch,ownProps) => { 
   // ownProps is the props of CartItem
   const { id ,amount} = ownProps;

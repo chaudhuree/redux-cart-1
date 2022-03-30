@@ -5,6 +5,7 @@ export const CLEAR_CART="CLEAR_CART";
 export const GET_TOTALS="GET_TOTALS";
 
 
+// action creators
 export const removeItem=(id)=>{
     return {
         type:REMOVE,
